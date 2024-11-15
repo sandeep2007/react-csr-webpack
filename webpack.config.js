@@ -13,6 +13,7 @@ module.exports = {
   ],
   devServer: {
     port: 3000, // you can change the port
+    historyApiFallback: true, // serve index.html for all routes
   },
   module: {
     rules: [
